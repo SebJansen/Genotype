@@ -37,5 +37,9 @@ record Risk where
 
 public export
 interface Genotype Risk where
-    risksForSnp : List Risk -> SNP -> List Risk
-    risksForGenome : List Risk -> Genome -> List Risk
+    risksForSnp : List Risk
+                -> SNP
+                -> List Risk
+    risksForGenome : List Risk
+                   -> Genome
+                   -> List Risk

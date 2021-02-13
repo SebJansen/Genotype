@@ -34,4 +34,4 @@ rs = [risk1, risk2]
 
 main : IO ()
 main = do
-  printLn $ show (risksForGenome rs genome)
+  printLn $ risksForGenome rs genome
